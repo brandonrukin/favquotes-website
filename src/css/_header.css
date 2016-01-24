@@ -1,0 +1,25 @@
+header {
+	z-index: 10;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    .menu {
+    	margin: 33px;
+		height: 43px;
+		width: 43px;
+		background: color(#FFF a(30%));		
+		border-radius: 50px;
+		float: right;
+		display: flex;
+		justify-content: center;
+		cursor: pointer;
+		transition: .2s;
+    	i {
+    		font-size: 1.2em;
+    		align-self: center;
+	    	color: #FFF;
+    	}
+    }
+
+}

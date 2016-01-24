@@ -1,0 +1,22 @@
+@import 'normalize.css';
+
+@lost flexbox flex;
+
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+body {
+	font: 16px 'Lato', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+@import '_header.css';
+@import '_about.css';
+@import '_quotes.css';
+@import '_colors.css';
+
+

@@ -1,0 +1,63 @@
+body {
+	color: #FFF;
+}
+
+.blue {
+	background: #3BADFF;
+	border: 6px solid #3BADFF;
+	transition: .1s ease;
+	&:hover {
+		border: 6px solid color(#3BADFF shade(10%));;
+		transition: .2s ease;
+	}
+}
+
+.green {
+	background: #06D6B3;
+	border: 6px solid #06D6B3;
+	transition: .1s ease;
+	&:hover {
+		border: 6px solid color(#06D6B3 shade(10%));;
+		transition: .2s ease;
+	}
+}
+
+.purple {
+	background: #B484F7;
+	border: 6px solid #B484F7;
+	transition: .1s ease;
+	&:hover {
+		border: 6px solid color(#B484F7 shade(10%));;
+		transition: .2s ease;
+	}
+}
+
+.yellow {
+	background: #FFC741;
+	border: 6px solid #FFC741;
+	transition: .1s ease;
+	&:hover {
+		border: 6px solid color(#FFC741 shade(10%));;
+		transition: .2s ease;
+	}
+}
+
+.orange {
+	background: #FF9B3B;
+	border: 6px solid #FF9B3B;
+	transition: .1s ease;
+	&:hover {
+		border: 6px solid color(#FF9B3B shade(10%));;
+		transition: .2s ease;
+	}
+}
+
+.red {
+	background: #FF6F6F;
+	border: 6px solid #FF6F6F;
+	transition: .1s ease;
+	&:hover {
+		border: 6px solid color(#FF6F6F shade(10%));;
+		transition: .2s ease;
+	}
+}
