@@ -7,26 +7,29 @@
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="dist/css/styles.css">
-
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 	<script>
 		$(document).ready(function() {
-			$('.menu').click(function() {
-		   		$('.overlay').toggle();
+			$('.nav__icon').on('click', function() {
+			  $('.menu').toggleClass('open');
+			});
+			$('.nav__icon').on('click', function() {
+			  $('.menu-list').toggleClass('open');
 			});
 		});
 	</script>
 </head>
 <body>
-	<header>
-		<div class="menu">
-			<i class="fa fa-bars"></i>
-		</div>
+	<header class="nav">
+		<div class="nav__icon"><i class="fa fa-bars"></i></div>
 	</header>
-	<div class="overlay">
-		<div class="overlay__menu">
-		</div>
-	</div>
+	<nav class="menu">
+		<ul class="menu-list">
+			<li class="menu-list__item">Quotes from <span>Books</span></li>
+			<li class="menu-list__item">Quotes from <span>Movies</span></li>
+			<li class="menu-list__item">Quotes from <span>Podcasts</span></li>
+		</ul>
+	</nav>
 	<section>
 	  <div class="quote blue">
 	  	<p class="quote__source">Sapiens</p>

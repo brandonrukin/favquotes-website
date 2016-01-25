@@ -1,10 +1,10 @@
-header {
+.nav {
 	z-index: 10;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    .menu {
+    &__icon {
     	margin: 33px;
 		height: 43px;
 		width: 43px;

@@ -1,3 +1,8 @@
+@keyframes move {
+  from { top: 0; left: 0; }
+  to   { top: 100px; left: 100px; }
+}
+
 body {
 	color: #FFF;
 }
@@ -6,6 +11,7 @@ body {
 	background: #3BADFF;
 	border: 6px solid #3BADFF;
 	transition: .1s ease;
+  	animation: move 1s;
 	&:hover {
 		border: 6px solid color(#3BADFF shade(10%));;
 		transition: .2s ease;
